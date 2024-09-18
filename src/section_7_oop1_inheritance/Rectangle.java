@@ -1,4 +1,4 @@
-package section_7_OOP1_Inheritance;
+package section_7_oop1_inheritance;
 
 public class Rectangle {
 

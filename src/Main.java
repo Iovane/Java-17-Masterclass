@@ -1,32 +1,69 @@
-import section_7_OOP1_Inheritance.Circle;
-import section_7_OOP1_Inheritance.Cuboid;
-import section_7_OOP1_Inheritance.Cylinder;
-import section_7_OOP1_Inheritance.Rectangle;
-
 public class Main {
 	public static void main(String[] args) {
-//		System.out.println("Hello World\n".repeat(5).indent(25));
 
-		Circle circle = new Circle(3.75);
-		System.out.println("circle.radius= " + circle.getRadius());
-		System.out.println("circle.area= " + circle.getArea());
+/*		SmartKitchen kitchen = new SmartKitchen();
 
-		Cylinder cylinder = new Cylinder(5.55, 7.25);
-		System.out.println("cylinder.radius= " + cylinder.getRadius());
-		System.out.println("cylinder.height= " + cylinder.getHeight());
-		System.out.println("cylinder.area= " + cylinder.getArea());
-		System.out.println("cylinder.volume= " + cylinder.getVolume());
+		kitchen.getDishWasher().setHasWorkToDo(true);
+		kitchen.getIceBox().setHasWorkToDo(true);
+		kitchen.getBrewMaster().setHasWorkToDo(true);
 
-		Rectangle rectangle = new Rectangle(5, 10);
-		System.out.println("rectangle.width= " + rectangle.getWidth());
-		System.out.println("rectangle.length= " + rectangle.getLength());
-		System.out.println("rectangle.area= " + rectangle.getArea());
+		kitchen.getIceBox().orderFood();
+		kitchen.getBrewMaster().brewCoffee();
+		kitchen.getDishWasher().doDishes();
 
-		Cuboid cuboid = new Cuboid(5,10,5);
-		System.out.println("cuboid.width= " + cuboid.getWidth());
-		System.out.println("cuboid.length= " + cuboid.getLength());
-		System.out.println("cuboid.area= " + cuboid.getArea());
-		System.out.println("cuboid.height= " + cuboid.getHeight());
-		System.out.println("cuboid.volume= " + cuboid.getVolume());
+		kitchen.setKitchenState(true, true, true);
+		kitchen.doKitchenWork();*/
+
+/*		Wall wall1 = new Wall("West");
+		Wall wall2 = new Wall("East");
+		Wall wall3 = new Wall("South");
+		Wall wall4 = new Wall("North");
+
+		Ceiling ceiling = new Ceiling(12, 55);
+
+		Bed bed = new Bed("Modern", 4, 3, 2, 1);
+
+		Lamp lamp = new Lamp("Classic", false, 75);
+
+		Bedroom bedRoom = new Bedroom("YOUR NAME HERE", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
+		bedRoom.makeBed();
+
+		bedRoom.getLamp().turnOn();*/
+
+
+		/*Car car = new Car(8, "Base car");
+		System.out.println(car.startEngine());
+		System.out.println(car.accelerate());
+		System.out.println(car.brake());
+
+		Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+		System.out.println(mitsubishi.startEngine());
+		System.out.println(mitsubishi.accelerate());
+		System.out.println(mitsubishi.brake());
+
+		Ford ford = new Ford(6, "Ford Falcon");
+		System.out.println(ford.startEngine());
+		System.out.println(ford.accelerate());
+		System.out.println(ford.brake());
+
+		Holden holden = new Holden(6, "Holden Commodore");
+		System.out.println(holden.startEngine());
+		System.out.println(holden.accelerate());
+		System.out.println(holden.brake());*/
+
+//		Item item = new Item("drink", "Sprite", 1.99);
+//		item.printItem();
+//		item.setSize("LARGE");
+//		item.printItem();
+//
+//		Burger burger = new Burger("good choice", 3.99);
+//		burger.addToppings("JALAPENO", "BACON", "CHEESE");
+//		burger.printItem();
+
+//		MealOrder mealOrder = new MealOrder();
+//		mealOrder.addBurgerToppings("BACON", "BACON", "JALAPENO");
+//		mealOrder.printItemizedList();
+
+
 	}
 }
